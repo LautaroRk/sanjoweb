@@ -1,0 +1,8 @@
+header {
+  background-color: rgb(92, 11, 11);
+}
+
+header li {
+  display: inline;
+  color: rgb(253, 248, 239);
+}
