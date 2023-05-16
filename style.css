@@ -3,11 +3,16 @@ body {
 }
 
 header {
+    
     background-color: rgb(92, 11, 11);
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
+}
+
+.contenedor-principal {
+    padding: 20px 100px;
 }
 
 nav {
@@ -25,14 +30,18 @@ nav ul li {
     color: white;
 }
 
-h1 {
-    color: rgb(119, 7, 7);
-    text-align: center;
-}
-
 #contenedor-foto-grupal {
     display: flex;
     justify-content: center;
+}
+
+#contenedor-foto-grupal img {
+    width: 100%;
+}
+
+h1 {
+    color: rgb(119, 7, 7);
+    text-align: center;
 }
 
 #contenedor-portada {
