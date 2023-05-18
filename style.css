@@ -2,33 +2,46 @@ body {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     margin: 0;
     color: #666;
+    overflow-x: hidden;
 }
 
 header {
-    background-color: rgb(92, 11, 11);
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    box-sizing: border-box;
     width: 100%;
+    height: 110px;
+    background-color: #660000;
+    padding: 15px 10%;
 }
 
-.contenedor-principal {
-    padding: 20px 100px;
-}
-
-nav {
-    width: 100%;
+header img {
+    width: 300px;
+    padding: 0 15px;
 }
 
 nav ul {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-nav ul li {
-    margin: 1%;
+nav li {
+    line-height: 20px;
+    padding: 10px 15px;
+    font-size: 14px;
+    text-align: center;
     color: white;
+}
+
+.contenedor-principal {
+    padding: 40px 10%;
+    margin-top: 110px;
 }
 
 #contenedor-foto-grupal {
