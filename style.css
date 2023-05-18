@@ -69,21 +69,19 @@ h1 {
     width: 90px;
 }
 
-#contacto button {
-    color: rgb(247, 240, 240);
-    background-color: rgb(97, 12, 12);
-}
-
-#contacto h3 {
-    color: rgb(80, 1, 1);
-}
-
 #contenedor-contacto {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     color: rgb(87, 2, 2);
+}
+
+#contenedor-contacto h3 {
+    color: rgb(80, 1, 1);
+    font-size: 27px;
+    font-weight: 800;
+    word-spacing: 3px;
 }
 
 #contenedor-contacto button {
