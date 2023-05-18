@@ -39,6 +39,10 @@ nav li {
     color: white;
 }
 
+.agrisada{
+    color: #CCCCCC;
+}
+
 .contenedor-principal {
     padding: 40px 10%;
     margin-top: 110px;
@@ -54,7 +58,7 @@ nav li {
 }
 
 h1 {
-    color: rgb(119, 7, 7);
+    color: #660000;
     text-align: center;
 }
 
