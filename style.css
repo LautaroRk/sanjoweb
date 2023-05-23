@@ -69,24 +69,29 @@ h1 {
     width: 90px;
 }
 
-#contacto button {
-    color: rgb(247, 240, 240);
-    background-color: rgb(97, 12, 12);
-}
-
-#contacto h3 {
-    color: rgb(80, 1, 1);
-}
-
 #contenedor-contacto {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
     color: rgb(87, 2, 2);
 }
 
+#contenedor-contacto h3 {
+    color: rgb(80, 1, 1);
+    font-size: 27px;
+    font-weight: 800;
+    word-spacing: 3px;
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;   
+}
+
 #contenedor-contacto button {
-    color: rgb(253, 246, 246);
-    background-color: rgb(78, 9, 9);
+    padding: 0px;
+    appearance: none;
+    border-width: 0px;
 }
