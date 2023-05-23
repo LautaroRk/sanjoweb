@@ -103,6 +103,24 @@ h1, h2 {
 }
 
 #contenedor-contacto button {
-    color: rgb(253, 246, 246);
-    background-color: rgb(78, 9, 9);
+    padding: 0px;
+    appearance: none;
+    border-width: 0px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-arriba {
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+    height: 100px;
+}
+
+.footer-abajo {
+    background-color: black;
+    color: white;
 }
