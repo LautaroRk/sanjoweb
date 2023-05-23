@@ -85,9 +85,6 @@ h1 {
     font-size: 27px;
     font-weight: 800;
     word-spacing: 3px;
-    max-width: 100%;
-    height: auto;
-    box-sizing: border-box;   
 }
 
 #contenedor-contacto button {
