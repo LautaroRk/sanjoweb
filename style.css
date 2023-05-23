@@ -36,7 +36,15 @@ nav li {
     padding: 10px 15px;
     font-size: 14px;
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
+}
+
+.agrisada {
+    color: #a79393;
+}
+
+.agrisada:hover {
+    color: #d9d0d0;
 }
 
 .contenedor-principal {
@@ -54,7 +62,7 @@ nav li {
 }
 
 h1 {
-    color: rgb(119, 7, 7);
+    color: #660000;
     text-align: center;
 }
 
