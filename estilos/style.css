@@ -37,19 +37,12 @@ nav li {
     font-size: 14px;
     text-align: center;
     color: white;
-    margin: 5px;
-    box-shadow: 5px 5px 5px black;
-    transition: all 500ms;
     border-radius: 10%;
     cursor: pointer;
 }
 
-nav li:hover {
-    background-color: #0b16e367;
-    color: #111fe89f;
-    padding: 15px;
-    margin: 3px;
-    font-size: 16px;
+nav li:hover { 
+    color: #acaeb19f;
     text-align: center;
 }
 
@@ -85,24 +78,26 @@ h1, h2 {
     width: 90px;
 }
 
-#contacto button {
-    color: rgb(247, 240, 240);
-    background-color: rgb(97, 12, 12);
-}
-
-#contacto h3 {
-    color: rgb(80, 1, 1);
-}
-
 #contenedor-contacto {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
     color: rgb(87, 2, 2);
 }
 
+#contenedor-contacto h3 {
+    color: rgb(80, 1, 1);
+    font-size: 27px;
+    font-weight: 800;
+    word-spacing: 3px;
+}
+
 #contenedor-contacto button {
-    color: rgb(253, 246, 246);
-    background-color: rgb(78, 9, 9);
+    padding: 0px;
+    appearance: none;
+    border-width: 0px;
 }
