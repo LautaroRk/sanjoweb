@@ -36,12 +36,16 @@ nav li {
     padding: 10px 15px;
     font-size: 14px;
     text-align: center;
-    color: white;
     border-radius: 10%;
     cursor: pointer;
 }
 
-nav li:hover { 
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover { 
     color: #acaeb19f;
     text-align: center;
 }
