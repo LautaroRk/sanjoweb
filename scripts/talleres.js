@@ -10,7 +10,7 @@ async function obtenerDatosDeLaTabla() {
 }
 
 const mostrarTabla = (values) => {
-  let html = '<table class="table">';
+  let html = '<table class="tabla-talleres">';
 
   // Generar filas de la tabla
   for (let i = 0; i < values.length; i++) {
