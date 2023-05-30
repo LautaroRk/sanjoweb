@@ -3,6 +3,7 @@ body {
     margin: 0;
     color: #666;
     overflow-x: hidden;
+
 }
 
 header {
@@ -58,6 +59,14 @@ nav li:hover {
     margin-top: 110px;
 }
 
+.contenedor-principal img {
+    width: 100%;
+}
+.contenedor-principal p {
+    text-align: center;
+    color: black;
+}
+
 #contenedor-foto-grupal {
     display: flex;
     justify-content: center;
@@ -106,3 +115,8 @@ h1, h2 {
     color: rgb(253, 246, 246);
     background-color: rgb(78, 9, 9);
 }
+
+.contenedor-parrafos p {
+    text-align: left;
+}
+  
