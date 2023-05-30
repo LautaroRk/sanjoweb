@@ -1,6 +1,7 @@
 :root {
 	--altura-encabezado: 110px;
 	--marron-sanjo: #660000;
+	--gris-texto: #666;
 }
 
 body {
@@ -12,8 +13,9 @@ body {
 
 button {
 	appearance: none;
-	border-width: 0px;
-	background-color: transparent;
+	box-shadow: none;
+	border: none;
+	background: none;
 	cursor: pointer;
 	padding: 0px;
 }
@@ -77,6 +79,21 @@ nav li a:hover {
 	overflow-x: hidden;
 }
 
+.contenedor-principal img {
+	width: 100%;
+	margin-top: 30px;
+}
+
+.pie-de-foto {
+	text-align: center;
+	margin-top: 0;
+}
+
+.contenedor-principal p {
+	text-align: center;
+	color: black;
+}
+
 #contenedor-foto-grupal {
 	display: flex;
 	justify-content: center;
@@ -89,8 +106,8 @@ nav li a:hover {
 h1, h2 {
 	color: rgb(119, 7, 7);
 	text-align: left;
-	font-weight: 800;
-	font-family: 'Montserrat', sans-serif;
+	font-weight: 900 !important;
+	margin-bottom: 0;
 }
 
 #contenedor-portada {
@@ -101,27 +118,48 @@ h1, h2 {
 	margin-top: 30px;
 }
 
+.contenedor-parrafos p {
+	text-align: left;
+	margin: 25px 0;
+	color: var(--gris-texto);
+}
+
 .pie-de-foto {
 	text-align: center;
-	margin: 10px;
+	margin: 0 0 10px 0;
+	font-style: italic;
+	color: #6b3529 !important;
 }
 
 #contenedor-contacto {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	flex-direction: column;
+	margin-top: 30px;
 	max-width: 100%;
 	height: auto;
 	box-sizing: border-box;
 	color: rgb(87, 2, 2);
 }
 
+#contenedor-contacto button {
+	color: rgb(253, 246, 246);
+	margin: 0px 7px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+#contenedor-contacto button img {
+	display: block;
+}
+  
 #contenedor-contacto h3 {
 	color: rgb(80, 1, 1);
 	font-size: 27px;
 	font-weight: 800;
 	word-spacing: 3px;
+	margin-bottom: 0;
 }
 
 /* Estilos para celulares */
