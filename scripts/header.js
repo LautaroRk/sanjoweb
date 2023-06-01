@@ -4,6 +4,8 @@ const menu = document.querySelector('.lista-navegacion');
 function ocultarHeaderEnPantallaChica() {
   if (window.innerWidth < 800) {
     menu.classList.add("ocultar");
+  } else {
+    menu.classList.remove("ocultar");
   }
 }
 

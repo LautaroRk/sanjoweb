@@ -23,7 +23,7 @@ button {
 }
 
 .ocultar {
-	display: none;
+	display: none !important;
 }
 
 .contenedor-principal {
