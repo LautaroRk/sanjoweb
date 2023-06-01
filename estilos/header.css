@@ -1,0 +1,139 @@
+/* ESTILOS HEADER */
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	width: 100%;
+	height: var(--altura-encabezado);
+	background-color: var(--marron-sanjo);
+	padding: 15px 10%;
+	z-index: 2;
+}
+
+.menu-btn {
+	display: none;
+	color: white;
+	font-size: 26px;
+	padding: 10px;
+}
+
+a {
+	color: #660000;
+}
+
+a.agrisado {
+	color: rgba(255,255,255,0.5) !important;
+}
+
+header img {
+	width: 250px;
+}
+
+.lista-navegacion {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	z-index: 2;
+}
+
+.lista-navegacion li {
+	line-height: 20px;
+	padding: 10px 15px;
+	font-size: 14px;
+	text-align: center;
+	border-radius: 10%;
+	cursor: pointer;
+}
+
+.lista-navegacion li a {
+	color: white;
+	text-decoration: none;
+}
+
+nav li a:hover { 
+	color: #acaeb19f;
+	text-align: center;
+}
+
+.sub-nav {
+	/* display: none; */
+	position: absolute;
+	top: 100%;
+	margin-left: -20px;
+	padding: 10px;
+	background-color: white;
+	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.247);
+	z-index: 1;
+}
+
+.sub-nav ul {
+	list-style: none;
+}
+
+.sub-nav ul li {
+	text-align: left;
+	margin-left: -40px;
+}
+
+.sub-nav ul li a {
+	color: var(--gris-claro);
+}
+
+.sub-nav ul li a:hover {
+	color: var(--gris-texto);
+}
+
+/* Estilos para pantallas chicas */
+@media (max-width: 1200px) {
+	header {
+		padding: 15px 5%;
+	}
+}
+
+/* Estilos para celulares */
+@media (max-width: 800px) {
+	header {
+		width: 100vw;
+		height: var(--altura-encabezado);
+		overflow: hidden;
+	}
+	header img {
+		width: 200px;
+	}
+	.lista-navegacion {
+		flex-direction: column;
+		align-items: start;
+		position: fixed;
+		top: var(--altura-encabezado);
+		left: 0;
+		width: 100vw;
+		height: calc(100vh - var(--altura-encabezado));
+		background-color: var(--marron-sanjo);
+		padding-left: 20px;
+		z-index: 2;
+	}
+	.lista-navegacion li {
+		text-align: left;
+	}
+	.menu-btn {
+		display: block;
+	}
+	.sub-nav {
+		position: relative;
+		top: 0;
+		left: 0;
+		background-color: transparent;
+		box-shadow: none;
+		padding: 0;
+		margin: 10px -0 -10px -15px;
+	}
+	.sub-nav ul li a {
+		color: white;
+	}
+}
