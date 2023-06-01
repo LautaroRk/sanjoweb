@@ -72,6 +72,7 @@ h1, h2 {
     text-align: left;
     font-weight: 800;
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 #contenedor-portada {
@@ -103,6 +104,65 @@ h1, h2 {
 }
 
 #contenedor-contacto button {
-    color: rgb(253, 246, 246);
-    background-color: rgb(78, 9, 9);
+    padding: 0px;
+    appearance: none;
+    border-width: 0px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-arriba {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #999999;
+    padding: 50px;
+}
+
+.footer-arriba div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 33%;
+    padding: 0 20px;
+}
+
+.direccion p {
+    color: aliceblue;
+    margin: 0;
+}
+
+.titulo-footer {
+    color: #333333;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    color: #660000;
+}
+
+.footer-arriba-centro {
+    border-left: 1px solid rgb(109, 97, 71);;
+    border-right: 1px solid rgb(109, 97, 71);;
+}
+
+.lista-sin-puntos {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-abajo {
+    background-color: #222;
+    color: white;
+    padding: 30px 40px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1;
 }
