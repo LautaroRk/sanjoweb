@@ -200,64 +200,6 @@ h1, h2 {
 	border-radius: 5px;
 }
 
-footer {
-	display: flex;
-	flex-direction: column;
-}
-
-.footer-arriba {
-	width: 100%;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	background-color: #999999;
-	padding: 50px 100px ;
-}
-
-.footer-arriba div {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	width: 33%;
-	padding: 0 20px;
-}
-
-.direccion p {
-	color: aliceblue;
-	margin: 0;
-}
-
-.titulo-footer {
-	color: #333333;
-	font-weight: bold;
-	font-size: 14px;
-	margin-top: 0;
-	margin-bottom: 0;
-}
-
-a {
-	color: #660000;
-}
-
-.footer-arriba-centro {
-	border-left: 1px solid rgb(109, 97, 71);;
-	border-right: 1px solid rgb(109, 97, 71);;
-}
-
-.lista-sin-puntos {
-	list-style: none;
-	padding: 0;
-}
-
-.footer-abajo {
-	background-color: #222;
-	color: white;
-	padding: 30px 40px;
-	text-align: center;
-	font-size: 14px;
-	line-height: 1;
-}
-
 #contenedor-contacto button img {
 	display: block;
 	margin: 0;
@@ -287,6 +229,88 @@ a {
 	align-items: center;
 	flex-wrap: wrap;
 	background-color: var(--gris-claro);
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-arriba {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #999999;
+	padding: 50px;
+}
+
+.footer-arriba div {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 33%;
+	padding: 0 20px;
+}
+
+.direccion p {
+	color: aliceblue;
+	margin: 0;
+}
+
+#logo-footer {
+	width: 75%;
+	margin-bottom: 10px;
+}
+
+#mail-sanjo {
+	text-decoration: none;
+	color: var(--marron-sanjo);
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+.titulo-footer {
+	color: #333333;
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+a {
+	color: #660000;
+}
+
+.footer-arriba-centro {
+	border-left: 1px solid rgb(109, 97, 71);;
+	border-right: 1px solid rgb(109, 97, 71);;
+}
+
+.lista-sin-puntos {
+	list-style: none;
+	padding: 0;
+}
+
+.link-redes {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.link-redes img {
+	margin-right: 15px;
+}
+
+.footer-abajo {
+	background-color: #222;
+	color: white;
+	padding: 30px 40px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 1;
 }
 
 /* Estilos para pantallas chicas */
