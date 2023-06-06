@@ -185,6 +185,10 @@ h1, h2 {
 	.contenedor-principal {
 		padding: 15px 5% 40px 5%;
 	}
+	.contenedor-horizontal {
+		flex-direction: column;
+		align-items: center;
+	}
 }
 
 /* Estilos para celulares */
@@ -214,10 +218,6 @@ h1, h2 {
 	}
 	p {
 		font-size: 15px;
-	}
-	.contenedor-horizontal {
-		flex-direction: column;
-		align-items: center;
 	}
 	.contenedor-parrafos {
 		padding: 0;
