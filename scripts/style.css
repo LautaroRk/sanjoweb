@@ -1,0 +1,19 @@
+
+
+img {
+    width: 100%;
+    height: 500px;
+}
+
+#botonIzquierda {
+    position: absolute;
+    left: 10px;
+    top:40%;
+    cursor: pointer;
+}
+#botonDerecha {
+    position: absolute;
+    right: 10px;
+    top:40%;
+    cursor: pointer;
+    }
