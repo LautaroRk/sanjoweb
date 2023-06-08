@@ -33,4 +33,5 @@ window.addEventListener("resize", ocultarHeaderEnPantallaChica);
 // Mostrar u ocultar el menú cuando se haga clic en el botón
 botonMenu.addEventListener('click', toggleMenu);
 subMenuHover.addEventListener('mouseover', mostrarSubMenu);
+subMenuFundacion.addEventListener('mouseout', ocultarSubMenu);
 contenedorPrincipal.addEventListener('mouseover', ocultarSubMenu);
