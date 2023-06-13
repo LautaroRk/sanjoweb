@@ -1,0 +1,39 @@
+
+#carrucel {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+}
+
+img {
+    width: 100%;
+    height: 500px;
+}
+
+#botonIzquierda {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 10px;
+    top:40%;
+    cursor: pointer;
+    background: none;
+
+}
+#botonDerecha {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 10px;
+    top:40%;
+    cursor: pointer;
+    background: none;
+    
+}
+.botones {
+    width: 40px;
+    height: 40px;
+    color: bisque;
+}

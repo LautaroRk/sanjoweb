@@ -20,11 +20,29 @@ function proximaImagen() {
     fotoCarrucel.src = imagenes[indiceActual];
 }
 
-const intervalId = setInterval(proximaImagen, 4000)
+const intervalId = setInterval(proximaImagen, 2000)
+
 
 function botonProxima() {
     proximaImagen();
     clearInterval(intervalId);
 }
 
-botonDerecha = addEventListener('click', botonProxima)
+botonDerecha.addEventListener('click', botonProxima)
+
+
+function imagenAnterior() {
+    if (indiceActual === 0) {
+        indiceActual = imagenes.length-1;
+    } else {
+        indiceActual -= 1;
+    }
+    fotoCarrucel.src = imagenes[indiceActual];
+}
+
+function botonAnterior() {
+    imagenAnterior();
+    clearInterval(intervalId);
+}
+
+botonIzquierda.addEventListener('click', botonAnterior)
