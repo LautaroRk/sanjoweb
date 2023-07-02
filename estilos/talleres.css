@@ -1,6 +1,5 @@
 /* Estilos para tabla de talleres */
 #contenedor-talleres {
-	margin-top: var(--altura-encabezado);
 	width: 100%;
 	height: 100vh;
 	overflow: auto;
