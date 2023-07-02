@@ -13,6 +13,17 @@ body {
 	overflow-x: hidden;
 }
 
+a {
+	cursor: pointer !important;
+	text-decoration: none;
+}
+
+.fondo-marron {
+	background-color: var(--marron-sanjo) !important;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
 button {
 	appearance: none;
 	box-shadow: none;
@@ -38,6 +49,63 @@ button {
 
 .texto-centrado {
 	text-align: center !important;
+}
+
+.mas-arriba {
+	margin-top: -1% !important;
+}
+
+.mas-mas-arriba {
+	margin-top: -2% !important;
+}
+
+.margen-superior {
+	margin-top: 30px;
+}
+
+.contenedor-secciones {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	width: 100%;
+	margin: 0;
+	margin-top: 60px;
+}
+
+.tarjeta-seccion {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 280px;
+	height: 300px;
+	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.247);
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+
+.tarjeta-seccion img {
+	height: 180px;
+	width: 240px;
+	object-fit: cover;
+}
+
+.tarjeta-seccion h3 {
+	margin: 20px;
+	color: var(--marron-sanjo);
+	font-weight: 800 !important;
+}
+
+.contenedor-banner-clientes {
+	margin-top: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #134F5B;
+	width: 100%;
+}
+
+.contenedor-banner-clientes img {
+	width: 100%;
 }
 
 .texto-grande {
@@ -147,7 +215,7 @@ h1, h2 {
 	line-height: 1.5;
 }
 
-.contenedor-opciones-mp {
+.contenedor-full-width {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -221,5 +289,8 @@ h1, h2 {
 	}
 	.contenedor-parrafos {
 		padding: 0;
+	}
+	.mas-mas-arriba {
+		margin-top: -9%;
 	}
 }
