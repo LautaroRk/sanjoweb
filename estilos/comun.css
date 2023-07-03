@@ -51,6 +51,19 @@ button {
 	text-align: center !important;
 }
 
+.texto-marron {
+	color: var(--marron-sanjo) !important;
+}
+
+.setecientos {
+	font-weight: 800 !important;
+}
+
+.margen-vertical {
+	margin-top: 40px !important;
+	margin-bottom: 40px !important;
+}
+
 .mas-arriba {
 	margin-top: -1% !important;
 }
