@@ -1,63 +1,117 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="estilos/comun.css">
+		<link rel="stylesheet" href="estilos/header.css">
+		<link rel="stylesheet" href="estilos/footer.css">
+		<script src="https://kit.fontawesome.com/d734038e10.js" crossorigin="anonymous"></script>
 
-        <title>LA FUNDACIÓN</title>
-    </head>
-    <body>
-        <header>
-            <img src="imagenes/logo.png" alt="Logo de la fundación">
-            <nav>
-                <ul> 
-                    <li>INICIO</li>
-                    <li>HISTORIA</li>
-                    <li>LA FUNDACIÓN</li>
-                    <li>AYUDANOS</li>
-                    <li>RADIO</li>
-                    <li>REVISTA</li>
-                    <li>CONTACTO</li>
-                </ul>
-            </nav>
-        </header>
+		<title>Fundación San José Obrero Bariloche</title>
+	</head>
+	<body>
+		<header>
+			<button class="menu-btn">
+				<i class="fas fa-bars"></i>
+			</button>
+			<img src="imagenes/logo.png" alt="Logo de la fundación">
+			<nav>
+				<ul class="lista-navegacion">
+					<li><a href="index.html">INICIO</a></li>
+					<li><a href="historia.html">HISTORIA</a></li>
+					<li id="sub-nav-hover">
+						<a class="agrisado" href="fundacion.html">LA FUNDACIÓN</a>
+						<div class="sub-nav">
+							<ul>
+								<li><a href="taller-de-los-suenos.html">TALLER DE LOS SUEÑOS</a></li>
+								<li><a href="fabrica-de-futuro.html">FÁBRICA DE FUTURO</a></li>
+								<li><a href="talleres.html">TALLERES SAN JOSÉ OBRERO</a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="donaciones.html">AYUDANOS</a></li>
+					<li><a href="radio-la-voz.html">RADIO</a></li>
+					<li><a href="revista-palabras-de-barrio.html">REVISTA</a></li>
+					<li><a href="contacto.html">CONTACTO</a></li>
+				</ul>
+			</nav>
+		</header>
 
-        <main>
-            <div id="contenedor-foto-grupal">
-                <img src="imagenes/foto-grupal-sanjo.jpg" alt="Foto grupal de alumnos del San José Obrero">
-            </div>
-            
-            <h1>CAMPOS DE ACCIÓN DE LA FUNDACIÓN</h1>
-    
-            <ul>
-                <li>
-                    <p>Fábricas/Equipos de Producción: Un espacio que propone diversos procesos productivos basados en la organización comunitaria, articulados con actores públicos y privados de la sociedad barilochense. Funcionan en complementariedad con los talleres y capacitaciones para jóvenes y adultos mayores de 18 años en las siguientes disciplinas: Carpintería, Herrería, Construcción, Comunicación social, Panadería, Gastronomía, Huerta, vivero y forestación, Tejido Artesanal, Cerámica, Mecánica, Tecnología, Textil.</p>
-                </li>
-                <li>
-                    <p>Talleres Pedagógicos: Espacios de capacitación y aprendizaje grupal. Se articulan con los Equipos de producción y se organizan a partir de 5 ejes: Trabajo, Salud, Información, Ser Social, Casa Común.</p>
-                </li>
-                <li>
-                    <p>Escuela Rodante: A partir del uso de un medio de transporte propio se propone un movimiento diario en relación a una batería de propuestas educativas coordinadas a través de la visita presencial a distintos espacios o instituciones de la sociedad barilochense. Articulación con organizaciones, empresas e instituciones estatales de la ciudad, con el objetivo de profundizar la integración de los jóvenes de los barrios populares con el resto de la sociedad. El proceso educativo no está restringido al espacio de la Fábrica de Futuro, sino que supone el intercambio y encuentro entre los distintos actores sociales.</p>
-                </li>
-                <li>
-                    <p>Espacios de Integración y terapéuticos: En cada momento de la Escuela-Fábrica se propone prestar especial atención al cuidado del compañero/a, para fortalecernos como comunidad y lograr reconocernos en el otro. Con este objetivo se promueven seis espacios exclusivos para el trabajo de integración y de reflexión sobre problemas personales o colectivos que sufren los jóvenes de los barrios populares: El desayuno compartido - el almuerzo comunitario - la dinámica de ejercicio/integración - el espacio de recreación y cierre de la jornada - los grupos terapéuticos posteriores al final de la jornada. En la población de los barrios populares, existen algunas situaciones de conflicto en la vinculación entre las personas y los grupos o familias, esto puede generar un ciclo de violencia que necesita de un espacio que desarticule los enfrentamientos históricos generados por fuera del espacio escolar. Al compartir con el otro/a, me reconozco en el otro/a y por lo tanto lo/a considero un par.</p>
-                </li>
-            </ul>
-        </main>
+		<div class="contenedor-principal">
+			<div id="contenedor-foto-grupal">
+				<img src="imagenes/foto-grupal-sanjo.jpg" alt="Foto grupal de alumnos del San José Obrero">
+			</div>
+			
+			<h1>CAMPOS DE ACCIÓN DE LA FUNDACIÓN</h1>
 
-        <div id="contenedor-portada"> 
-            <img id="foto-portada" src="imagenes/portada-escuela.jpg" alt="imagen grupal pequeña">
-            <p id="frase">¿Conocés nuestro proyecto educativo? Hacé click acá y leelo</p>
-        </div>
+			<p><b>• Fábricas/Equipos de Producción:</b> Un espacio que propone diversos procesos productivos basados en la organización comunitaria, articulados con actores públicos y privados de la sociedad barilochense. Funcionan en complementariedad con los talleres y capacitaciones para jóvenes y adultos mayores de 18 años en las siguientes disciplinas: Carpintería, Herrería, Construcción, Comunicación social, Panadería, Gastronomía, Huerta, vivero y forestación, Tejido Artesanal, Cerámica, Mecánica, Tecnología, Textil.</p>
+			<p><b>• Talleres Pedagógicos:</b> Espacios de capacitación y aprendizaje grupal. Se articulan con los Equipos de producción y se organizan a partir de 5 ejes: Trabajo, Salud, Información, Ser Social, Casa Común.</p>
+			<p><b>• Escuela Rodante:</b> A partir del uso de un medio de transporte propio se propone un movimiento diario en relación a una batería de propuestas educativas coordinadas a través de la visita presencial a distintos espacios o instituciones de la sociedad barilochense. Articulación con organizaciones, empresas e instituciones estatales de la ciudad, con el objetivo de profundizar la integración de los jóvenes de los barrios populares con el resto de la sociedad. El proceso educativo no está restringido al espacio de la Fábrica de Futuro, sino que supone el intercambio y encuentro entre los distintos actores sociales.</p>
+			<p><b>• Espacios de Integración y terapéuticos:</b> cada momento de la Escuela-Fábrica se propone prestar especial atención al cuidado del compañero/a, para fortalecernos como comunidad y lograr reconocernos en el otro. Con este objetivo se promueven seis espacios exclusivos para el trabajo de integración y de reflexión sobre problemas personales o colectivos que sufren los jóvenes de los barrios populares: El desayuno compartido - el almuerzo comunitario - la dinámica de ejercicio/integración - el espacio de recreación y cierre de la jornada - los grupos terapéuticos posteriores al final de la jornada. En la población de los barrios populares, existen algunas situaciones de conflicto en la vinculación entre las personas y los grupos o familias, esto puede generar un ciclo de violencia que necesita de un espacio que desarticule los enfrentamientos históricos generados por fuera del espacio escolar. Al compartir con el otro/a, me reconozco en el otro/a y por lo tanto lo/a considero un par.</p>
 
-        <section id="contenedor-contacto">
-            <h3>CONTACTATE CON NOSOTROS O AYUDANOS A SEGUIR CRECIENDO</h3>
-            <div id="contenedor-botones">
-                <button>ESCRIBINOS</button>
-                <button>AYUDANOS</button>
-            </div>
-        </section>
-    </body>
+			<div id="contenedor-portada"> 
+				<img id="foto-portada" src="imagenes/portada-escuela.jpg" alt="Revista de la escuela">
+				<p class="pie-de-foto"><b>¿Conocés nuestro proyecto educativo?</b> Hacé click <a href="https://www.fundacionsanjoseobrero.org/s/s84/pdf/proyecto-educativo-funsanjoseobrero.pdf" target="_blank">acá</a> y leelo</p>
+			</div>
+
+			<section id="contenedor-contacto">
+				<h3>Contactate con nosotros o ayudanos a seguir creciendo</h3>
+				<div id="contenedor-botones">
+					<a href="contacto.html"><img src="imagenes/boton-escribinos.png" alt="Botón ESCRIBINOS"></a>
+					<a href="donaciones.html"><img src="imagenes/boton-ayudanos.png" alt="Botón AYUDANOS"></a>
+				</div>
+			</section>
+		</div>
+
+		<footer>
+			<div class="footer-arriba">
+				<div class="direccion">
+					<img id="logo-footer" src="imagenes/logo-footer.png" alt="Logo de la fundación">
+					<p>Soldado Olavarría y José Obrero</p>
+					<p>Barrio Nuestras Malvinas</p>
+					<p>San Carlos de Bariloche - Río Negro</p>
+					<a id="mail-sanjo" href="mailto:sanjosebariloche@gmail.com">sanjosebariloche@gmail.com</a>
+				</div>
+				<div class="footer-arriba-centro">
+					<h6 class="titulo-footer">SECCIONES DEL SITIO</h6>
+					<ul class="lista-sin-puntos">
+						<li><a href="index.html">Inicio</a></li>
+						<li><a href="historia.html">Historia</a></li>
+						<li><a href="taller-de-los-suenos.html">Taller de los Sueños</a></li>
+						<li><a href="fabrica-de-futuro.html">Fabrica de Futuro</a></li>
+						<li><a href="talleres.html">Taller San José Obrero</a></li>
+						<li><a href="radio-la-voz.html">Radio</a></li>
+						<li><a href="revista-palabras-de-barrio.html">Revista</a></li>
+						<li><a href="donaciones.html">Ayudanos</a></li>
+						<li><a href="contacto.html">Contacto</a></li>
+					</ul>
+				</div>
+				<div>
+					<h6 class="titulo-footer">SUMATE A NUESTRAS REDES</h6>
+					<ul class="lista-sin-puntos">
+						<li class="link-redes">
+							<img src="imagenes/InstagramBN.png" alt="logo de instragram">
+							<a href="https://www.instagram.com/sanjo_brc/" target="_blank">@sanjo_brc</a>
+						</li>
+						<li class="link-redes">
+							<img src="imagenes/facebookbn.png" alt="logo de facebook">
+							<a href="https://www.facebook.com/sanjoseobrerobrc" target="_blank">San José Obrero</a>
+						</li>
+						<li class="link-redes">
+							<img src="imagenes/facebookbn.png" alt="logo facebook">
+							<a href="https://www.facebook.com/tdelossuenos" target="_blank">Taller de los Sueños</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-abajo">
+				<p>©2023 | Sitio realizado por las y los alumnos del taller de Desarrollo Web de la Fundación San José Obrero:</p>
+				<p>Tamara Roblez, Danna Francesca, Rosio Choque, Jorge Ayala y Matias Rapetti</p>
+			</div>
+		</footer>
+		
+		<script src="scripts/header.js"></script>
+	</body>
 </html>

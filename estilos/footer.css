@@ -1,0 +1,97 @@
+/* ESTILOS FOOTER */
+footer {
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+}
+
+.footer-arriba {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #999999;
+	padding: 50px 0;
+	box-sizing: border-box;
+}
+
+.footer-arriba div {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 30%;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+.direccion p {
+	color: aliceblue;
+	margin: 0;
+}
+
+#logo-footer {
+	width: 70%;
+	margin-bottom: 10px;
+}
+
+#mail-sanjo {
+	text-decoration: none;
+	color: var(--marron-sanjo);
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+.titulo-footer {
+	color: #333333;
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.footer-arriba-centro {
+	border-left: 1px solid rgb(109, 97, 71);
+	border-right: 1px solid rgb(109, 97, 71);
+}
+
+.link-redes {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.link-redes img {
+	margin-right: 15px;
+}
+
+.footer-abajo {
+	background-color: #222;
+	color: white;
+	padding: 30px 40px;
+	text-align: center;
+	font-size: 13px;
+	line-height: 1;
+}
+
+/* Estilos para celulares */
+@media (max-width: 800px) {
+	.footer-arriba {
+		flex-direction: column;
+		padding: 0 3%;
+	}
+	.footer-arriba div {
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		padding: 20px 0;
+		margin: 0;
+	}
+	.footer-arriba-centro {
+		border: none;
+		border-top: 1px solid rgb(109, 97, 71);
+		border-bottom: 1px solid rgb(109, 97, 71);
+	}
+}
