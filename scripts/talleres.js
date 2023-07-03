@@ -1,6 +1,6 @@
 const apiKey = "AIzaSyACjyY6upKbO6HNygiA2Z4Ge2Wa0uhI_is";
-const idGoogleSheet = "1oFXH0FebRiJCTi_AJSXlEKMRLeUslhs2ajOXCBc1Xc0";
-const range = "Hoja%201";
+const idGoogleSheet = "1omcmxLOGoOIYA_o0OZHxo_fiv_QodiVGUBfkII_9dqE";
+const range = "TALLERES";
 
 async function obtenerDatosDeLaTabla() {
   const response = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${idGoogleSheet}/values/${range}?key=${apiKey}`);
