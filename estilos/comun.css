@@ -15,7 +15,7 @@ body {
 
 a {
 	cursor: pointer !important;
-	text-decoration: none;
+	text-decoration: none !important;
 }
 
 .fondo-marron {
@@ -51,6 +51,10 @@ button {
 	text-align: center !important;
 }
 
+.texto-izquierda {
+	text-align: left !important;
+}
+
 .texto-marron {
 	color: var(--marron-sanjo) !important;
 }
@@ -62,6 +66,15 @@ button {
 .margen-vertical {
 	margin-top: 40px !important;
 	margin-bottom: 40px !important;
+}
+
+.padding-vertical {
+	padding-top: 20px !important;
+	padding-bottom: 20px !important;
+}
+
+.padding-vertical h2 {
+	margin: 0;
 }
 
 .mas-arriba {
@@ -141,6 +154,27 @@ button {
 
 #contenedor-foto-grupal img {
 	width: 100%;
+}
+
+h1 {
+	font-size: 32px;
+	font-weight: 800;
+	word-spacing: 3px;
+	margin-top: 30px;
+}
+
+h2 {
+	font-size: 28px;
+	font-weight: 800;
+	word-spacing: 3px;
+	margin-top: 30px;
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: 800;
+	word-spacing: 3px;
+	margin-bottom: 20px;
 }
 
 h1, h2 {
@@ -246,6 +280,20 @@ h1, h2 {
 	justify-content: center;
 }
 
+.contenedor-horizontal-flexible {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between !important;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.ancho-mitad {
+	width: 45% !important;
+	max-width: 700px !important;
+	min-width: 400px !important;
+}
+
 #imagen-talleres {
 	width: 45%;
 	height: auto;
@@ -261,6 +309,11 @@ h1, h2 {
 	padding: 0;
 }
 
+#contact-form div {
+	align-items: flex-start !important;
+	text-align: left;
+}
+
 /* Estilos para pantallas chicas */
 @media (max-width: 1200px) {
 	.contenedor-principal {
@@ -269,6 +322,12 @@ h1, h2 {
 	.contenedor-horizontal {
 		flex-direction: column;
 		align-items: center;
+	}
+}
+
+@media (max-width: 1000px) {
+	.contenedor-horizontal-flexible {
+		justify-content: center !important;
 	}
 }
 
@@ -305,5 +364,8 @@ h1, h2 {
 	}
 	.mas-mas-arriba {
 		margin-top: -9%;
+	}
+	.margen-vertical {
+		margin-top: 20px !important;
 	}
 }

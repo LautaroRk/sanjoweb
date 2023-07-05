@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/comun.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+		<link rel="stylesheet" href="estilos/comun.css">
 		<link rel="stylesheet" href="estilos/header.css">
 		<link rel="stylesheet" href="estilos/footer.css">
     <script src="https://kit.fontawesome.com/d734038e10.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d734038e10.js" crossorigin="anonymous"></script>
+		<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+		</script>
+		<script src="scripts/contacto.js"></script>
 
     <title>Fundación San José Obrero Bariloche</title>
   </head>
@@ -52,11 +58,47 @@
       <p>Otra forma es aportando de alimentos, materiales, herramientas o elementos que ya no uses en tu casa. Para ese tipo de donación te pedimos que nos escribas en el formulario que está al final de la sección, que nos dejes todos tus datos (revisalos que esten bien antes de darle al botón de enviar) así nos ponemos en contacto pronto.</p>
 
       <p class="texto-grande texto-negrita">En la Fundación tenemos muchas vías de colaboración que siempre están abiertas para todo aquel que quiera y pueda ayudar. ¡Muchas gracias!</p>
+			
+			<div class="contenedor-full-width margen-vertical padding-vertical">
+				<h2 class="texto-centrado">Tu aporte económico nos ayuda un montón</h2>
+			</div>
 
-    </div>
-    
-    <div class="contenedor-full-width">
-      <h2 class="texto-centrado">Tu aporte económico nos ayuda un montón</h2>
+			<div class="contenedor-horizontal-flexible">
+				<div class="texto-izquierda ancho-mitad">
+					<h3 class="texto-marron setecientos">También podés donar alimentos, materiales de construcción, herramientas o aparatos en desuso</h3>
+					<p>Toda ayuda que puedas brindarnos es bienvenida. Ingredientes para la preparación de alimentos, materiales de construcción que sobraron de remodelaciones y ampliaciones. Herramientas de todo tipo y, especialmente, equipos y aparatos en desuso. Esos que siguen andando, pero por ahí porque son viejos o no se pudieron actualizar, ya no se pueden usar más. Computadoras, celulares, cámaras de fotos, videocámaras, televisores y electrodomésticos que haya quedado relegado en la mesada. Si tenés algo de todo eso, completá el formulario.</p>
+					<p>¡Muchas gracias!</p>
+				</div>
+				
+				<div class="ancho-mitad">
+					<form id="contact-form" class="row g-3">
+						<input type="hidden" name="contact_number">
+						<div class="col-md-6">
+							<label class="texto-izquierda" for="name-input">Nombre</label>
+							<input id="name-input" name="user_name" type="text" class="form-control" aria-label="Nombre">
+						</div>
+						<div class="col-md-6">
+							<label class="texto-izquierda" for="surname-input">Apellido</label>
+							<input id="surname-input" name="user_surname" type="text" class="form-control" aria-label="Apellido">
+						</div>
+						<div class="col-12">
+							<label class="texto-izquierda" for="email-input">Email</label>
+							<input id="email-input" name="user_email" type="email" class="form-control" aria-label="Email" required>
+						</div>
+						<div class="col-12">
+							<label class="texto-izquierda" for="phone-input">Teléfono</label>
+							<input id="phone-input" name="user_phone" type="tel" class="form-control" aria-label="Teléfono">
+						</div>
+						<div class="col-12">
+							<label class="texto-izquierda" for="message-input">Ingrese su mensaje</label>
+							<textarea id="message-input" name="message" rows="5" class="form-control"></textarea>
+						</div>
+						<div class="col-12">
+							<button type="submit" class="btn btn-primary">Enviar</button>
+						</div>
+					</form>
+				</div>
+			</div>
     </div>
 
     <footer>
