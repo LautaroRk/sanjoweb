@@ -16,6 +16,11 @@ footer {
 	box-sizing: border-box;
 }
 
+.footer-arriba a {
+	color: var(--marron-sanjo) !important;
+	text-decoration: none !important;
+}
+
 .footer-arriba div {
 	display: flex;
 	flex-direction: column;
@@ -47,7 +52,7 @@ footer {
 	font-weight: bold;
 	font-size: 14px;
 	margin-top: 0;
-	margin-bottom: 0;
+	margin-bottom: 20px;
 }
 
 .footer-arriba-centro {
