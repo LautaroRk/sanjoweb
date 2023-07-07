@@ -1,7 +1,7 @@
 // Variables emailjs - DOCS: https://www.emailjs.com/docs/sdk/send-form/
-const PUBLIC_KEY = "-NFCpW2KqN-BdC0xW";
-const SERVICE_ID = "lauro_sanjo";
-const TEMPLATE_ID = "template_xvwa7p8";
+const PUBLIC_KEY = "kv5EVWsEGCYLkjBvy";
+const SERVICE_ID = "service_8vfyhzv";
+const TEMPLATE_ID = "template_zhqodp7";
 
 emailjs.init(PUBLIC_KEY);
 
